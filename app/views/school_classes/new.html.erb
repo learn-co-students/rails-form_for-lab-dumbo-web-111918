@@ -1,0 +1,14 @@
+<h1>SchoolClasses#new</h1>
+<p>Find me in app/views/school_classes/new.html.erb</p>
+
+
+
+<h1>School Class Form</h1>
+
+<%= form_tag school_classes_path do  %>
+  <%= label_tag "Class Name" %> <br>
+  <%= text_field_tag :school_class_title %> <br>
+  <%= label_tag "Room Number"%> <br>
+  <%= text_field_tag :school_class_room_number %> <br>
+  <%= submit_tag "Create School class"%>
+<% end %>
